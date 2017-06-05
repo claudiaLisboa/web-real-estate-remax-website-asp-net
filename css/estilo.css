@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px}
+body {
+	
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+.container{
+	margin: auto;
+	width:80%;
+}
+#header{
+	width:100%;
+}
+#logo{
+	float:left;
+}
+#logo2{
+	float:right;
+}
+#middleRow{
+	float:left;
+	width:100%;
+}
+#middleCol{
+	float:Right;
+	width:50%;
+}
+
+
+
+#footer{
+	margin:auto
+	width:100%;
+	text-align:center;
+}
+#menu, #conteudo, #rodape {
+	
+	position:relative;
+	margin:auto;
+	}
+#conteudo {
+	padding-top: 25px;}
+#conteudo h1 {
+	font-size:22px;
+	padding-bottom:25px;}
+#conteudo ul li {
+	margin-left:25px;
+	list-style-type:square;}
+#conteudo p {
+	padding-bottom:15px;}
+#conteudo textarea, #conteudo #titulo {
+	width:300px;
+	}
+#conteudo textarea{
+	height:300px;
+}
+#menu {
+	height:50px;
+	background-color:#F90;}
+#menu ul li {
+	float:left;
+	list-style-type:none;}
+#menu ul li a:link, #menu ul li a:visited {
+	display:block;
+	padding-top:15px;
+	height:35px;
+	padding-left:15px;
+	padding-right:15px;
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;}
+#menu ul li a:hover {
+	background-color:#F30;
+	color:#FFF;}
+#rodape {
+	height:30px;
+	background-color:#F90;
+	text-align:center;
+	margin-top:25px;
+	padding-top:15px;}
